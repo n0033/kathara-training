@@ -1,0 +1,8 @@
+options {
+        forwarders { 
+  	      45.67.0.16;
+        };
+        allow-query { any; };
+       	recursion yes;
+	allow-recursion { any; };
+};

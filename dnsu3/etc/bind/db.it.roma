@@ -1,0 +1,11 @@
+$TTL    60000
+@               IN      SOA     dnsu3.roma.it.    root.dnsu3.roma.it. (
+                        2022061801 ; serial0
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      dnsu3.roma.it.
+@		IN 	A	11.1.1.1
+dnsu3           IN      A       45.67.0.16

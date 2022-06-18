@@ -1,0 +1,10 @@
+ifconfig eth0 123.0.0.14 netmask 255.255.255.0 up
+/etc/init.d/zebra start
+
+service ospfd start
+service bind start
+
+
+echo "nameserver 123.0.0.13" >> /etc/resolv.conf
+echo "search roma.it" >> /etc/resolv.conf
+

@@ -1,0 +1,4 @@
+ifconfig eth0 123.0.0.13 netmask 255.255.255.0 up
+/etc/init.d/zebra start
+service ospfd start
+service bind start

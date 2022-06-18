@@ -1,0 +1,13 @@
+$TTL    60000
+@               IN      SOA     dnsit.it.    root.dnsit.it. (
+                        2022061801 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      dnsit.it.
+roma		IN	NS	dnsu3.roma.it.
+dnsit           IN      A       45.67.0.15
+siemanko	IN	A	22.2.2.2
+superproxy	IN	A	153.176.0.2

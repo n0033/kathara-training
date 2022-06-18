@@ -1,0 +1,7 @@
+ifconfig eth0 11.1.1.1 netmask 255.255.255.0 up
+ifconfig eth1 10.1.0.5 netmask 255.255.255.0 up
+/etc/init.d/zebra start
+service ospfd start
+update-alternatives --set iptables /usr/sbin/iptables-legacy
+iptables -A PREROUTING -t nat -p tcp -d 11.1.1.1 --dport 80 -m statistic --mode random --probability 0.5 -j DNAT --to-destination 10.1.0.1:80
+iptables -A PREROUTING -t nat -p tcp -d 11.1.1.1 --dport 80 -m statistic --mode random --probability 0.5 -j DNAT --to-destination 10.1.0.2:80

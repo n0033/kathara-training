@@ -1,0 +1,9 @@
+ifconfig eth0 109.0.0.11 netmask 255.255.255.0 up
+ifconfig eth1 153.176.0.1 netmask 255.255.255.0 up
+/etc/init.d/zebra start
+
+service ospfd start
+service bind start
+
+echo "nameserver 45.67.0.16" >> /etc/resolv.conf
+

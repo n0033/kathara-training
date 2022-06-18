@@ -1,0 +1,6 @@
+echo "ServerName localhost" >> /etc/apache2/apache2.conf
+ifconfig eth0 10.1.0.1 netmask 255.255.255.0 up
+/etc/init.d/zebra start
+service ospfd start
+/etc/init.d/apache2 start
+
