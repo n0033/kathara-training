@@ -141,7 +141,7 @@ Where domains can be:
   ```sh
   links
   ```
-2. Enter url - type `g` and insert URL - e.g. `roma.it`, 'siemanko.it` or ip address of load balancer
+2. Enter url - type `g` and insert URL - e.g. `roma.it`, `siemanko.it` or ip address of load balancer
 
 ### Testing load balancers
 
