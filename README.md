@@ -123,7 +123,6 @@ You can check current state by `ip route` command on any node.
 
 After running the lab, type `ip route` command. The output of the command should consist of just few records. After waiting ~30 seconds, type `ip route` again. You should see many new records over there.
 
-
 ### Checking connection and DNS
 On any node, you can
 ```sh
@@ -143,6 +142,10 @@ Where domains can be:
   links
   ```
 2. Enter url - type `g` and insert URL - e.g. `roma.it`, 'siemanko.it` or ip address of load balancer
+
+### Testing load balancers
+
+Using links access web server by url `roma.it` or `siemanko.it` multiple times to see that response is served by both web servers (WB1 or WB2 for `roma.it` and WB3 or WB4 for `siemanko.it`)
 
 ### Testing proxy
 
