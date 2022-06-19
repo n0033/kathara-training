@@ -145,7 +145,7 @@ Where domains can be:
 
 ### Testing load balancers
 
-Using links access web server by url `roma.it` or `siemanko.it` multiple times to see that response is served by both web servers (WB1 or WB2 for `roma.it` and WB3 or WB4 for `siemanko.it`)
+Using `links` access web server by url `roma.it` or `siemanko.it` multiple times to see that response is served by both web servers (WB1 or WB2 for `roma.it` and WB3 or WB4 for `siemanko.it`)
 
 ### Testing proxy
 
