@@ -59,7 +59,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![diagram](https://i.postimg.cc/pX5r4hP0/diagram.png)
+<img width="701" alt="diagram" src="https://user-images.githubusercontent.com/49531832/180722174-bbeddb10-b608-4988-8eec-00d9d7bbe65a.png">
+
 
 Network shown above includes:
 * two client PCs which are connected to `local cache DNS` and are configured to use `superproxy.it` proxy server
